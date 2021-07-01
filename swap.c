@@ -16,3 +16,10 @@ w=b[n];
 b[n]=b[i];
 b[i]=w;
 }
+
+void ssort(int b [], int l){
+  for(int i=0;i<l;i++){
+    swap_max(b,l,i);
+  }
+}
+  
